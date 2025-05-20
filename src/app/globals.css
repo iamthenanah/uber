@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "tailwindcss";
+@import "tailwindcss/preflight";
+@import "tailwindcss/utilities";
+@import "react-datepicker/dist/react-datepicker.css";
+@import "leaflet/dist/leaflet.css";
+
+* {
+    font-family: sans-serif;
+}
+
+.custom_calendar {
+    padding: 15px;
+}
+
+.react-datepicker__day-name,
+.react-datepicker__day,
+.react-datepicker__time-name {
+    margin: 2px;
+}
+
+.react-datepicker__header:not(.react-datepicker__header--has-time-select) {
+    background: white;
+    padding: 0;
+}
+
+.react-datepicker__day-names {
+    padding: 10px 0;
+}
+
+.react-datepicker__current-month h2 {
+    font-weight: normal;
+}
+
+.react-datepicker__navigation {
+    top: 12px;
+}
